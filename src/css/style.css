@@ -124,35 +124,3 @@ header {
   margin-right: 100px;
 }
 
-/* slider */
-.slider {
-  height: 640px;
-  background-image: url(../img/01-Картинка-фона.jpg);
-  background-position-y: -150px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 349px;
-  padding-left: 730px;
-}
-.section__card {
-  width: 420px;
-  background: linear-gradient(180deg,rgba(244,213,178,0.8)0%,
-  rgba(234,156,65,0.8)100%);
-  padding: 15px;
-}
-
-.section__description {
-  padding-top: 17px;
-  padding-bottom: 17px;
-  padding-left: 28px;
-  border: 1px solid black;
-}
-
-.section__title {
-  margin-bottom: 9px;
-  font-size: 36px;
-}
-
-.section__text {
-  font-size: 12px;
-}
