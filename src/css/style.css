@@ -20,9 +20,9 @@ img {
 }
 
 /* @font-face {
-	font-family: 'Montserrat';
-	src: local('Montserrat-Light'),
-		url('../fonts/Montserrat-Light.woff') format('woff');
+	font-family: 'Roboto';
+	src: local('Roboto-Regular'),
+		url('../fonts/Roboto-Regular.ttf') format('ttf');
 	font-weight: 300;
 	font-style: normal;
 } */
@@ -109,6 +109,10 @@ header {
   margin-bottom: 20px;
 }
 
+.section {
+  margin-bottom: 20px;
+}
+
 /* nav */
 .nav__list {
   justify-content: center;
@@ -116,6 +120,7 @@ header {
 }
 
 .nav__item {
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -125,6 +130,8 @@ header {
 }
 
 .section-about {
+  position: relative;
+  margin-bottom: 20px;
   min-height: 630px;
   background-image: url(../img/01-Картинка-фона.jpg);
   background-position: center;
@@ -133,7 +140,91 @@ header {
 }
 
 .section-about__block {
+  position: absolute;
+  padding-top: 15px;
   width: 420px;
-  height: 190px;
+  min-height: 190px;
   background: linear-gradient(180deg,rgba(244,213,178,0.8)0%,rgba(234,156,65,0.8)100%);
+  top: 54%;
+  left: 50%;
 }
+
+.section-about__border {
+  margin: 0 auto;
+  width: 390px;
+  height: 160px;
+  border: 1px solid black;
+}
+
+.section-about__title {
+  font-family: 'Philosopher', sans-serif;
+  padding-left: 28px;
+  padding-top: 17px;
+  font-size: 36px;
+  margin-bottom: 9px;
+}
+
+.section-about__text {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 28px;
+  font-size: 12px;
+}
+
+.section-description {
+  margin-bottom: 20px;
+}
+
+.section-description__icon-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-description__icon-box img {
+  display: inline-block;
+}
+
+.section-description__icon-box img:not(:last-child) {
+  margin-right: 76px;
+}
+
+.section-description__title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 96px;
+  text-align: center;
+}
+
+.section-description__span {
+  color: #f15b40;
+}
+
+.section-description__text {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+  width: 70%;
+}
+
+.section-map__title {
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+ }
+
+ .line {
+  border-top: 1px solid #999999;
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+ }
+
+ footer {
+  height: 80px;
+ }
